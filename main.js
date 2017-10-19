@@ -77,11 +77,11 @@ $(document).ready(function()
 						if (arr[i] == "Clear")
 						{
 							$("#main").css("background-image", "url('images/clear.jpg')");
-							$("#dog").attr("src","clear.png");
+							$("#dog").attr("src","images/clear.png");
 						}else if (arr[i] == "Cloudy") 
 						{
 							$("#main").css("background-image", "url('images/cloudy.jpg')");
-							$("#dog").attr("src","cloudy.png");
+							$("#dog").attr("src","images/cloudy.png");
 						}else if(arr[i] == "Rain")
 						{
 							$("#main").css("background-image", "url('images/rainy.jpg')");
